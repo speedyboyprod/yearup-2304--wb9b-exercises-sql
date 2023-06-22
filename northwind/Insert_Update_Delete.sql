@@ -35,7 +35,7 @@ WHERE ContactName = "Dillon Coe";
 --Ex 8
 SELECT ProductName, SupplierID
 FROM Products
-ORDER BY SupplierID, ProductName;
+ORDER BY SupplierID DESC, ProductName;
 
 --Ex 9
 SELECT SupplierID, CompanyName, ContactName
